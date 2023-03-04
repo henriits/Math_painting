@@ -1,3 +1,34 @@
+
+class Canvas:
+    def __init__(self, width, height, color):
+        self.width = width
+        self.height = height
+        self.color = color
+
+    def make(self, imagepath):
+        pass
+class Square:
+    def __init__(self,x ,y, width, height, color):
+        self.x = x
+        self.y = y
+        self.width = width
+        self.height = height
+        self.color = color
+
+    def draw(self, canvas):
+        pass
+class Rectangle:
+    def __init__(self, x, y, width, height, color):
+        self.x = x
+        self.y = y
+        self.width = width
+        self.height = height
+        self.color = color
+
+    def draw(self,canvas):
+        pass
+
+
 canvas_width = int(input("Enter a canvas width: "))
 canvas_height = int(input("Enter a canvas height: "))
 canvas_color = input("Enter canvas color (white or black): ")
