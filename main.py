@@ -1,4 +1,5 @@
-from canvas import Canvas, Square, Rectangle
+from canvas import Canvas
+from shapes import Square, Rectangle
 
 # canvas = Canvas(height=20,width=30,color=(255,255,255))
 # r1 = Rectangle(x=1,y=6,height=7,width=10,color=(100,200,125))
